@@ -1,0 +1,45 @@
+body{
+
+background-color: rgba(238, 255, 0, 0.18);
+font-size:25px ;
+
+}
+#score{
+margin-left: 50px;
+margin-top: 500px;
+text-decoration:wavy;
+}
+#head{
+    float: right;
+}
+#timer{
+    float: right;
+    margin-right: 100px;
+}
+#show_sketch{
+    float: right;
+    margin-right: 100px;
+    background-color: rgb(55, 141, 91);
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+    from{box-shadow:1px,1px,38px grey}
+    to{box-shadow: 1px,1px,38px white;}
+}
+
+#head{
+    width: 100%;
+    font-size: 30px;
+
+}
+#sketch_drawn{
+    color: red;
+}
